@@ -1,0 +1,109 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: OperatingSystem - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\0xff\AppData\Local\Temp\RSP73AC.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/OperatingSystem.pdb" /debug /machine:I386 /out:"Debug/OperatingSystem.exe" /pdbtype:sept 
+".\Debug\OperatingSystem.obj"
+]
+Creating command line "link.exe @C:\Users\0xff\AppData\Local\Temp\RSP73AC.tmp"
+<h3>Output Window</h3>
+Linking...
+OperatingSystem.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_MSC_VER=1800"; ignored
+OperatingSystem.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_ITERATOR_DEBUG_LEVEL=2"; ignored
+OperatingSystem.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:RuntimeLibrary=MDd_DynamicDebug"; ignored
+MSVCRTD.lib(cinitexe.obj) : warning LNK4078: multiple ".CRT" sections found with different attributes (C0300040)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: static class std::_Generic_error_category std::_Error_objects<int>::_Generic_object" (?_Generic_object@?$_Error_objects@H@std@@2V_Generic_error_category@2@A)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: static class std::_System_error_category std::_Error_objects<int>::_System_object" (?_System_object@?$_Error_objects@H@std@@2V_System_error_category@2@A)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: static class std::locale::id std::num_put<char,class std::back_insert_iterator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >::id" (?id@?$num_put@DV?$back_insert_iterator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@2V0locale@2@A)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: static class std::locale::id std::num_put<wchar_t,class std::back_insert_iterator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > >::id" (?id@?$num_put@_WV?$back_insert_iterator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@std@@2V0locale@2@A)
+OperatingSystem.obj : error LNK2011: precompiled object not linked in; image may not run
+OperatingSystem.obj : error LNK2001: unresolved external symbol __imp___invalid_parameter
+OperatingSystem.obj : error LNK2001: unresolved external symbol __imp___fseeki64
+OperatingSystem.obj : error LNK2001: unresolved external symbol __imp__sprintf_s
+OperatingSystem.obj : error LNK2001: unresolved external symbol __imp___lock_file
+OperatingSystem.obj : error LNK2001: unresolved external symbol __imp___unlock_file
+OperatingSystem.obj : error LNK2001: unresolved external symbol __imp__memcpy_s
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Lockit::_Lockit(int)" (__imp_??0_Lockit@std@@QAE@H@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (__imp_?_Debug_message@std@@YAXPB_W0I@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Container_base12::_Container_base12(void)" (__imp_??0_Container_base12@std@@QAE@XZ)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Container_base12::~_Container_base12(void)" (__imp_??1_Container_base12@std@@QAE@XZ)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: struct std::_Iterator_base12 * * __thiscall std::_Container_base12::_Getpfirst(void)const " (__imp_?_Getpfirst@_Container_base12@std@@QBEPAPAU_Iterator_base12@2@XZ)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::_Container_base12::_Orphan_all(void)" (__imp_?_Orphan_all@_Container_base12@std@@QAEXXZ)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Xbad_alloc(void)" (__imp_?_Xbad_alloc@std@@YAXXZ)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Xlength_error(char const *)" (__imp_?_Xlength_error@std@@YAXPBD@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Xout_of_range(char const *)" (__imp_?_Xout_of_range@std@@YAXPBD@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "void __cdecl std::_Facet_Register(class std::_Facet_base *)" (?_Facet_Register@std@@YAXPAV_Facet_base@1@@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) private: static class std::locale::_Locimp * __cdecl std::locale::_Getgloballocale(void)" (__imp_?_Getgloballocale@locale@std@@CAPAV_Locimp@12@XZ)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static unsigned int __cdecl std::ctype<char>::_Getcat(class std::locale::facet const * *,class std::locale const *)" (__imp_?_Getcat@?$ctype@D@std@@SAIPAPBVfacet@locale@2@PBV42@@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall std::codecvt<char,char,int>::unshift(int &,char *,char *,char * &)const " (__imp_?unshift@?$codecvt@DDH@std@@QBEHAAHPAD1AAPAD@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static unsigned int __cdecl std::codecvt<char,char,int>::_Getcat(class std::locale::facet const * *,class std::locale const *)" (__imp_?_Getcat@?$codecvt@DDH@std@@SAIPAPBVfacet@locale@2@PBV42@@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Syserror_map(int)" (__imp_?_Syserror_map@std@@YAPBDH@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::ios_base::operator bool(void)const " (__imp_??Bios_base@std@@QBE_NXZ)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __int64 __thiscall std::ios_base::width(void)const " (__imp_?width@ios_base@std@@QBE_JXZ)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __int64 __thiscall std::ios_base::width(__int64)" (__imp_?width@ios_base@std@@QAE_J_J@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::locale __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::getloc(void)const " (__imp_?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QBE?AVlocale@2@XZ)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputn(char const *,__int64)" (__imp_?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void)" (__imp_?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::write(char const *,__int64)" (__imp_?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@PBD_J@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall std::basic_istream<char,struct std::char_traits<char> >::_Ipfx(bool)" (__imp_?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE_N_N@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::basic_istream<char,struct std::char_traits<char> > & __thiscall std::basic_istream<char,struct std::char_traits<char> >::getline(char *,__int64)" (__imp_?getline@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@PAD_J@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: __thiscall user::user(void)" (??0user@@QAE@XZ)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: bool __thiscall user::login(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?login@user@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: bool __thiscall user::adduser(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?adduser@user@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: bool __thiscall user::deluser(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?deluser@user@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: bool __thiscall user::chgpwd(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?chgpwd@user@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: bool __thiscall user::mkdir(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?mkdir@user@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: bool __thiscall user::chmod(char * const,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?chmod@user@@QAE_NQADV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: bool __thiscall user::chown(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?chown@user@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: bool __thiscall user::chgrp(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?chgrp@user@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: bool __thiscall user::cd(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?cd@user@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: bool __thiscall user::rmdir(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?rmdir@user@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: bool __thiscall user::cat(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?cat@user@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: bool __thiscall user::touch(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?touch@user@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: bool __thiscall user::rm(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?rm@user@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: bool __thiscall user::mv(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?mv@user@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: void __thiscall user::ls(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?ls@user@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: void __thiscall user::ls(void)" (?ls@user@@QAEXXZ)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: bool __thiscall user::cp(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?cp@user@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: void __thiscall user::vi(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?vi@user@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: void __thiscall user::setUsrname(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?setUsrname@user@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: void __thiscall user::setPwd(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?setPwd@user@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: void __thiscall user::setGroup(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?setGroup@user@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall user::getUsrname(void)" (?getUsrname@user@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall user::getPwd(void)" (?getPwd@user@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall user::getGroup(void)" (?getGroup@user@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) struct _iobuf * __cdecl std::_Fiopen(char const *,int,int)" (__imp_?_Fiopen@std@@YAPAU_iobuf@@PBDHH@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "protected: virtual __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::showmanyc(void)" (?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "protected: virtual __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::xsgetn(char *,__int64)" (?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "protected: virtual __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::xsputn(char const *,__int64)" (?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z)
+OperatingSystem.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+OperatingSystem.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+OperatingSystem.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+OperatingSystem.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+OperatingSystem.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+OperatingSystem.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+OperatingSystem.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) __int64 const std::_BADOFF" (__imp_?_BADOFF@std@@3_JB)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "class std::vector<class user *,class std::allocator<class user *> > users" (?users@@3V?$vector@PAVuser@@V?$allocator@PAVuser@@@std@@@std@@A)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "class inode * * inod" (?inod@@3PAPAVinode@@A)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "class block * * blk" (?blk@@3PAPAVblock@@A)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "class user * cyan" (?cyan@@3PAVuser@@A)
+OperatingSystem.obj : error LNK2001: unresolved external symbol "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > crtpath" (?crtpath@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A)
+OperatingSystem.obj : error LNK2001: unresolved external symbol ___security_cookie
+Debug/OperatingSystem.exe : fatal error LNK1120: 79 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+OperatingSystem.exe - 80 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

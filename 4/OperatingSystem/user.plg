@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: user - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\0xff\AppData\Local\Temp\RSPCA33.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/user.pdb" /debug /machine:I386 /out:"Debug/user.exe" /pdbtype:sept 
+".\Debug\user.obj"
+]
+Creating command line "link.exe @C:\Users\0xff\AppData\Local\Temp\RSPCA33.tmp"
+<h3>Output Window</h3>
+Linking...
+user.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_MSC_VER=1800"; ignored
+user.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_ITERATOR_DEBUG_LEVEL=2"; ignored
+user.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:RuntimeLibrary=MDd_DynamicDebug"; ignored
+MSVCRTD.lib(cinitexe.obj) : warning LNK4078: multiple ".CRT" sections found with different attributes (C0300040)
+user.obj : error LNK2001: unresolved external symbol "public: static class std::_Generic_error_category std::_Error_objects<int>::_Generic_object" (?_Generic_object@?$_Error_objects@H@std@@2V_Generic_error_category@2@A)
+user.obj : error LNK2001: unresolved external symbol "public: static class std::_System_error_category std::_Error_objects<int>::_System_object" (?_System_object@?$_Error_objects@H@std@@2V_System_error_category@2@A)
+user.obj : error LNK2001: unresolved external symbol "public: static class std::locale::id std::num_put<char,class std::back_insert_iterator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >::id" (?id@?$num_put@DV?$back_insert_iterator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@2V0locale@2@A)
+user.obj : error LNK2001: unresolved external symbol "public: static class std::locale::id std::num_put<wchar_t,class std::back_insert_iterator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > >::id" (?id@?$num_put@_WV?$back_insert_iterator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@@std@@2V0locale@2@A)
+user.obj : error LNK2011: precompiled object not linked in; image may not run
+user.obj : error LNK2001: unresolved external symbol __imp___invalid_parameter
+user.obj : error LNK2001: unresolved external symbol __imp__sprintf_s
+user.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Lockit::_Lockit(int)" (__imp_??0_Lockit@std@@QAE@H@Z)
+user.obj : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+user.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (__imp_?_Debug_message@std@@YAXPB_W0I@Z)
+user.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Container_base12::_Container_base12(void)" (__imp_??0_Container_base12@std@@QAE@XZ)
+user.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Container_base12::~_Container_base12(void)" (__imp_??1_Container_base12@std@@QAE@XZ)
+user.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: struct std::_Iterator_base12 * * __thiscall std::_Container_base12::_Getpfirst(void)const " (__imp_?_Getpfirst@_Container_base12@std@@QBEPAPAU_Iterator_base12@2@XZ)
+user.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::_Container_base12::_Orphan_all(void)" (__imp_?_Orphan_all@_Container_base12@std@@QAEXXZ)
+user.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Xbad_alloc(void)" (__imp_?_Xbad_alloc@std@@YAXXZ)
+user.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Xlength_error(char const *)" (__imp_?_Xlength_error@std@@YAXPBD@Z)
+user.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Xout_of_range(char const *)" (__imp_?_Xout_of_range@std@@YAXPBD@Z)
+user.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Syserror_map(int)" (__imp_?_Syserror_map@std@@YAPBDH@Z)
+user.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __int64 __thiscall std::ios_base::width(void)const " (__imp_?width@ios_base@std@@QBE_JXZ)
+user.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __int64 __thiscall std::ios_base::width(__int64)" (__imp_?width@ios_base@std@@QAE_J_J@Z)
+user.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputn(char const *,__int64)" (__imp_?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z)
+user.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void)" (__imp_?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ)
+user.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+user.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+user.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+user.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+user.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+user.obj : error LNK2001: unresolved external symbol __RTC_UninitUse
+user.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+user.obj : error LNK2001: unresolved external symbol "class std::vector<class user *,class std::allocator<class user *> > users" (?users@@3V?$vector@PAVuser@@V?$allocator@PAVuser@@@std@@@std@@A)
+user.obj : error LNK2001: unresolved external symbol "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > crtpath" (?crtpath@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A)
+user.obj : error LNK2001: unresolved external symbol "class inode * * inod" (?inod@@3PAPAVinode@@A)
+user.obj : error LNK2001: unresolved external symbol "class block * * blk" (?blk@@3PAPAVblock@@A)
+user.obj : error LNK2001: unresolved external symbol "class user * crtuser" (?crtuser@@3PAVuser@@A)
+user.obj : error LNK2001: unresolved external symbol ___security_cookie
+MSVCRTD.lib(crtexe.obj) : error LNK2001: unresolved external symbol _main
+Debug/user.exe : fatal error LNK1120: 36 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+user.exe - 37 error(s), 4 warning(s)
+</pre>
+</body>
+</html>
